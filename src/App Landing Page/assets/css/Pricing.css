@@ -1,0 +1,50 @@
+.pricing .box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pricing .box-container .box {
+  flex: 1 1 33rem;
+  text-align: center;
+  margin: 1rem;
+  padding: 2rem 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+}
+
+.pricing .box-container .box .price {
+  font-size: 5rem;
+  color: var(--black);
+  font-weight: bolder;
+}
+
+.pricing .box-container .box .price span {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.pricing .box-container .box h3 {
+  color: #fff;
+  background: var(--gradient);
+  font-size: 3rem;
+  padding: 1.5rem 0;
+  margin: 1rem 0;
+}
+
+.pricing .box-container .box ul {
+  list-style: none;
+  padding: 2rem 0;
+  border-bottom: 0.1rem solid var(--red);
+}
+
+.pricing .box-container .box ul li {
+  padding: 0.7rem 0;
+  font-size: 1.7rem;
+  color: #666;
+}
+
+.pricing .box-container .box .btn {
+  margin-top: 2rem;
+}

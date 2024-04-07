@@ -1,0 +1,43 @@
+.review .box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.review .box-container .box {
+  text-align: center;
+  margin: 1rem;
+  padding: 2rem;
+  flex: 1 1 33rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.review .box-container .box img {
+  display: block;
+  margin: 0 auto;
+  height: 13rem;
+  width: 13rem;
+  padding: 1rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review .box-container .box h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.review .box-container .box p {
+  font-size: 1.4rem;
+  color: #666;
+  padding: 1rem 0;
+}
+.review .box-container .box .stars i {
+  padding: 1rem 0.1rem;
+  font-size: 2rem;
+  color: var(--red);
+}

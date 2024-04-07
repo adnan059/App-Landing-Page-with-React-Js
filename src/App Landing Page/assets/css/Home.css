@@ -1,0 +1,54 @@
+.home {
+  background: url("../images/hero-bg2.png") no-repeat;
+  background-size: cover;
+  background-position: cetner;
+  min-height: 100vh;
+  background-color: var(--black);
+  text-align: center;
+}
+
+.home .content {
+  padding-top: 10rem;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.home .content h3 {
+  font-size: 6.5rem;
+  color: #fff;
+}
+
+.home .content p {
+  font-size: 1.7rem;
+  color: #eee;
+}
+
+.home .swiper {
+  width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.home .swiper-slide {
+  margin: 0 auto;
+  height: 40rem;
+  width: 30rem;
+}
+
+.home .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 0.5rem solid var(--red);
+  border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+  .home .content h3 {
+    font-size: 4rem;
+  }
+  .home .content p {
+    font-size: 1.5rem;
+  }
+}

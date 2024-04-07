@@ -1,0 +1,50 @@
+.usage .row {
+  display: flex;
+  align-items: center;
+  /* background: pink; */
+}
+
+.usage .row .divider {
+  max-width: 40rem;
+  padding: 0 5rem;
+  /* background-color: rgb(209, 85, 85); */
+}
+
+.usage .row .box-container .box {
+  padding: 1rem 0;
+  /* background-color: rgb(182, 243, 182); */
+}
+
+.usage .row .box-container .box i {
+  color: var(--red);
+  padding: 1rem 0;
+  font-size: 4.5rem;
+}
+
+.usage .row .box-container .box h3 {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.usage .row .box-container .box p {
+  color: #666;
+  font-size: 1.5rem;
+}
+
+.usage .row .box-container:first-child {
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  .usage .row {
+    flex-direction: column;
+  }
+  .usage .row .divider {
+    padding: 1rem 0rem;
+    width: 100%;
+  }
+  .usage .row .box-container .box {
+    text-align: center;
+  }
+}

@@ -1,0 +1,56 @@
+.about .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about .row .image {
+  flex: 1 1 30rem;
+}
+
+.about .row .image img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 40rem;
+}
+
+.about .row .content h3 {
+  color: var(--black);
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.about .row .content p {
+  color: #666;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+
+.about .row .content .buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about .row .content .buttons a {
+  display: block;
+  max-width: 300px;
+}
+
+.about .row .content .buttons a:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .about .row .content {
+    text-align: center;
+  }
+
+  .about .row .content .buttons {
+    justify-content: center;
+  }
+}
